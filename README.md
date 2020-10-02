@@ -20,4 +20,4 @@ pip freeze > requirements.txt
 ### Netlify settings
 
 * Build command: `python freeze.py`
-* Publish directory: `build`
+* Publish directory: `build`  
