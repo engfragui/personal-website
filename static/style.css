@@ -6,8 +6,8 @@ html {
 }
 
 h1 {
-    font-size: 48pt;
     font-family: stratos;
+    font-size: 48pt;
     color: white;
     padding-top: 5pt;
     padding-right: 25pt;
@@ -45,10 +45,6 @@ svg:hover {
   fill: #EB5E55;
 }
 
-#bio {
-    height: 100vh;
-}
-
 #bio a {
     color: white;
     text-decoration: underline;
@@ -73,7 +69,7 @@ svg:hover {
 #bio {
     font-family: neue-haas-unica;
     color: white;
-    font-size: 11pt;
+    font-size: 2.5vh;
     padding-right: 25pt;
 }
 
@@ -91,10 +87,24 @@ svg:hover {
     padding-right: 20pt;
 }
 
+@media (max-width:1040.98px){
+    #bio {
+        font-size: 2.1vh;
+    }
+}
+
+@media (max-width:880.98px){
+    #bio {
+        font-size: 1.9vh;
+    }
+}
 @media (max-width:767.98px){
     .container-fluid {
         padding-left: 35pt;
         padding-right:35pt;
+    }
+    #bio {
+        font-size: 12pt;
     }
 }
 
@@ -102,6 +112,9 @@ svg:hover {
     .container-fluid {
         padding-left: 35pt;
         padding-right:35pt;
+    }
+    #bio {
+        font-size: 12pt;
     }
 }
 
