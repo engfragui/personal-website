@@ -1,0 +1,127 @@
+@import url("https://use.typekit.net/efe4ony.css");
+@import url("https://use.typekit.net/efe4ony.css");
+
+html {
+    height:100vh;
+}
+
+h1 {
+    font-family: stratos;
+    font-size: 48pt;
+    color: #001ba6;
+    padding-top: 5pt;
+    padding-right: 25pt;
+}
+
+body {
+    background-color: #faf0dc;
+    height:100vh;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start; 
+    list-style: none;
+    padding: 0;
+}
+
+nav ul a {
+    font-family: neue-haas-unica;
+    font-size: 12pt;
+    display:block;
+    color: #9a002f;
+    font-style: normal;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #EB5E55;
+}
+
+svg:hover {
+  fill: #9a002f;
+}
+
+#bio a {
+    color: black;
+    text-decoration: underline;
+}
+
+#bio a:hover {
+    color: #9a002f;
+}
+
+.container-fluid {
+    padding-left: 35pt;
+    padding-right: 0pt;
+    padding-top: 0pt;
+    height:100vh;
+}
+
+#navspace {
+    padding-left: 0pt;
+    padding-right:40px;
+}
+
+#bio {
+    font-family: neue-haas-unica;
+    color: black;
+    font-size: 2.5vh;
+    padding-right: 25pt;
+}
+
+#icons {
+/*
+    padding: 0%;
+    position:absolute;
+    left:10pt;
+    bottom:0;
+*/
+}
+
+.nav-link {
+    padding-left: 0pt;
+    padding-right: 20pt;
+}
+
+svg {
+    fill: black;
+}
+
+@media (max-width:1040.98px){
+    #bio {
+        font-size: 2.1vh;
+    }
+}
+
+@media (max-width:880.98px){
+    #bio {
+        font-size: 1.9vh;
+    }
+}
+@media (max-width:767.98px){
+    .container-fluid {
+        padding-left: 35pt;
+        padding-right:35pt;
+    }
+    #bio {
+        font-size: 12pt;
+    }
+    body {
+    height:100vh;
+}
+}
+
+@media (max-width:575.98px){
+    .container-fluid {
+        padding-left: 35pt;
+        padding-right:35pt;
+    }
+    #bio {
+        font-size: 12pt;
+    }
+}
+
